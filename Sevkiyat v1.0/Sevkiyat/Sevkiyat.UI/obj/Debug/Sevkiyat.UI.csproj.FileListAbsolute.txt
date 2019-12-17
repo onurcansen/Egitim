@@ -1,0 +1,129 @@
+C:\Users\user\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.csprojAssemblyReference.cache
+C:\Users\user\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormDriverUpdate.resources
+C:\Users\user\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormProductAdd.resources
+C:\Users\user\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormVehicleList.resources
+C:\Users\user\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.Properties.Resources.resources
+C:\Users\user\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.csproj.GenerateResource.cache
+C:\Users\user\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormPayersUpdate.resources
+C:\Users\user\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormPayerAdd.resources
+C:\Users\user\source\repos\Sevkiyat\Sevkiyat.UI\bin\Debug\Sevkiyat.UI.exe.config
+C:\Users\user\source\repos\Sevkiyat\Sevkiyat.UI\bin\Debug\Sevkiyat.UI.exe
+C:\Users\user\source\repos\Sevkiyat\Sevkiyat.UI\bin\Debug\Sevkiyat.UI.pdb
+C:\Users\user\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormMain.resources
+C:\Users\user\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormWayBillAdd.resources
+C:\Users\user\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.exe
+C:\Users\user\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.pdb
+C:\Users\user\source\repos\Sevkiyat\Sevkiyat.UI\bin\Debug\WinformHelper.dll
+C:\Users\user\source\repos\Sevkiyat\Sevkiyat.UI\bin\Debug\WinformHelper.pdb
+C:\Users\user\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormDriverAdd.resources
+C:\Users\user\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormPayersList.resources
+C:\Users\user\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormVehicleAdd.resources
+C:\Users\user\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.csproj.CopyComplete
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.csprojAssemblyReference.cache
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormDriverAdd.resources
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormListWayBill.resources
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormMain.resources
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormPayerAdd.resources
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormPayersList.resources
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormPayersUpdate.resources
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormVehicleAdd.resources
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormDriverUpdate.resources
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormProductAdd.resources
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormVehicleList.resources
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormWayBillUpdate.resources
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.Properties.Resources.resources
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.csproj.GenerateResource.cache
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.csproj.CoreCompileInputs.cache
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.exe
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.pdb
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\bin\Debug\Sevkiyat.UI.exe.config
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\bin\Debug\Sevkiyat.UI.exe
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\bin\Debug\Sevkiyat.UI.pdb
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\bin\Debug\EntityFramework.dll
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\bin\Debug\WinformHelper.dll
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\bin\Debug\WinformHelper.pdb
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\bin\Debug\EntityFramework.xml
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.csproj.CopyComplete
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormDriverList.resources
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormPasswordChange.resources
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormUserAdd.resources
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormUserList.resources
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormWaybillDetails.resources
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormProductList.resources
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormLogIn.resources
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\bin\Debug\Sevkiyat.UI.exe.config
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\bin\Debug\Sevkiyat.UI.exe
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\bin\Debug\Sevkiyat.UI.pdb
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\bin\Debug\EntityFramework.dll
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\bin\Debug\WinformHelper.dll
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\bin\Debug\WinformHelper.pdb
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\bin\Debug\EntityFramework.xml
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.csprojResolveAssemblyReference.cache
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormDriverAdd.resources
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormDriverList.resources
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormListWayBill.resources
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormLogIn.resources
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormMain.resources
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormPasswordChange.resources
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormPayerAdd.resources
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormPayersList.resources
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormPayersUpdate.resources
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormProductList.resources
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormUserAdd.resources
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormUserList.resources
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormVehicleAdd.resources
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormDriverUpdate.resources
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormProductAdd.resources
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormVehicleList.resources
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormWayBillAdd.resources
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormWaybillDetails.resources
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormWayBillUpdate.resources
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.Properties.Resources.resources
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.csproj.GenerateResource.cache
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.csproj.CoreCompileInputs.cache
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.csproj.CopyComplete
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.exe
+C:\Users\Onur\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.pdb
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormCreateWayBill.resources
+C:\Users\can.sen\source\repos\Sevkiyat\Sevkiyat.UI\bin\Debug\WinformHelper.dll.config
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\bin\Debug\Sevkiyat.UI.exe.config
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\bin\Debug\Sevkiyat.UI.exe
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\bin\Debug\Sevkiyat.UI.pdb
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\bin\Debug\EntityFramework.dll
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\bin\Debug\WinformHelper.dll
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\bin\Debug\WinformHelper.pdb
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\bin\Debug\WinformHelper.dll.config
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\bin\Debug\EntityFramework.xml
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.csprojAssemblyReference.cache
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormCreateWayBill.resources
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormDriverAdd.resources
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormDriverList.resources
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormListWayBill.resources
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormLogIn.resources
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormMain.resources
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormPasswordChange.resources
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormPayerAdd.resources
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormPayersList.resources
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormPayersUpdate.resources
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormProductList.resources
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormUserAdd.resources
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormUserList.resources
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormVehicleAdd.resources
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormDriverUpdate.resources
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormProductAdd.resources
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormVehicleList.resources
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormWaybillDetails.resources
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.FormWayBillUpdate.resources
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.Properties.Resources.resources
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.csproj.GenerateResource.cache
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.csproj.CoreCompileInputs.cache
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.csproj.CopyComplete
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.exe
+C:\Users\can.sen\Downloads\Sevkiyat v1.0\Sevkiyat\Sevkiyat.UI\obj\Debug\Sevkiyat.UI.pdb

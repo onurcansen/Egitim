@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOB.BLL", "DOB.BLL\DOB.BLL.csproj", "{8CBCBA80-9560-4F30-B0F7-1C981EABAA16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOB.DAL", "DOB.DAL\DOB.DAL.csproj", "{5D264FF5-DFCE-435E-A01B-B06F3E59AE9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOB.DAL.Abstract", "DOB.DAL.Abstract\DOB.DAL.Abstract.csproj", "{A565C131-AC29-4C93-BE87-6430521956A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOB.DTO", "DOB.DTO\DOB.DTO.csproj", "{9183F871-6109-4F21-A1A5-73058E8E9108}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOB.Entity", "DOB.Entity\DOB.Entity.csproj", "{92048528-3B8C-40B5-826E-AB8E4430CF74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOB.EntityTypeConfiguration", "DOB.EntityTypeConfiguration\DOB.EntityTypeConfiguration.csproj", "{E3DD112F-C263-49AC-987D-1437139A3954}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOB.WinUI", "DOB.WinUI\DOB.WinUI.csproj", "{50F684FB-CFB8-48A0-8564-2C9AC4A83E3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WHelper", "WHelper\WHelper.csproj", "{50A4ABEA-2CF3-41D8-826C-B1F29808410D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CBCBA80-9560-4F30-B0F7-1C981EABAA16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CBCBA80-9560-4F30-B0F7-1C981EABAA16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CBCBA80-9560-4F30-B0F7-1C981EABAA16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CBCBA80-9560-4F30-B0F7-1C981EABAA16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D264FF5-DFCE-435E-A01B-B06F3E59AE9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D264FF5-DFCE-435E-A01B-B06F3E59AE9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D264FF5-DFCE-435E-A01B-B06F3E59AE9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D264FF5-DFCE-435E-A01B-B06F3E59AE9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A565C131-AC29-4C93-BE87-6430521956A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A565C131-AC29-4C93-BE87-6430521956A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A565C131-AC29-4C93-BE87-6430521956A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A565C131-AC29-4C93-BE87-6430521956A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9183F871-6109-4F21-A1A5-73058E8E9108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9183F871-6109-4F21-A1A5-73058E8E9108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9183F871-6109-4F21-A1A5-73058E8E9108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9183F871-6109-4F21-A1A5-73058E8E9108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92048528-3B8C-40B5-826E-AB8E4430CF74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92048528-3B8C-40B5-826E-AB8E4430CF74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92048528-3B8C-40B5-826E-AB8E4430CF74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92048528-3B8C-40B5-826E-AB8E4430CF74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3DD112F-C263-49AC-987D-1437139A3954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3DD112F-C263-49AC-987D-1437139A3954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3DD112F-C263-49AC-987D-1437139A3954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3DD112F-C263-49AC-987D-1437139A3954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50F684FB-CFB8-48A0-8564-2C9AC4A83E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50F684FB-CFB8-48A0-8564-2C9AC4A83E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50F684FB-CFB8-48A0-8564-2C9AC4A83E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50F684FB-CFB8-48A0-8564-2C9AC4A83E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50A4ABEA-2CF3-41D8-826C-B1F29808410D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50A4ABEA-2CF3-41D8-826C-B1F29808410D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50A4ABEA-2CF3-41D8-826C-B1F29808410D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50A4ABEA-2CF3-41D8-826C-B1F29808410D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43CF3840-BA03-483D-A4FA-C947B908ACAD}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/beyhanbilgeadam
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DOB.BLL\\DOB.BLL.csproj
+		SccProjectName1 = DOB.BLL
+		SccLocalPath1 = DOB.BLL
+		SccProjectUniqueName2 = DOB.DAL.Abstract\\DOB.DAL.Abstract.csproj
+		SccProjectName2 = DOB.DAL.Abstract
+		SccLocalPath2 = DOB.DAL.Abstract
+		SccProjectUniqueName3 = DOB.DAL\\DOB.DAL.csproj
+		SccProjectName3 = DOB.DAL
+		SccLocalPath3 = DOB.DAL
+		SccProjectUniqueName4 = DOB.DTO\\DOB.DTO.csproj
+		SccProjectName4 = DOB.DTO
+		SccLocalPath4 = DOB.DTO
+		SccProjectUniqueName5 = DOB.Entity\\DOB.Entity.csproj
+		SccProjectName5 = DOB.Entity
+		SccLocalPath5 = DOB.Entity
+		SccProjectUniqueName6 = DOB.EntityTypeConfiguration\\DOB.EntityTypeConfiguration.csproj
+		SccProjectName6 = DOB.EntityTypeConfiguration
+		SccLocalPath6 = DOB.EntityTypeConfiguration
+		SccProjectUniqueName7 = DOB.WinUI\\DOB.WinUI.csproj
+		SccProjectName7 = DOB.WinUI
+		SccLocalPath7 = DOB.WinUI
+		SccProjectUniqueName8 = WHelper\\WHelper.csproj
+		SccProjectName8 = WHelper
+		SccLocalPath8 = WHelper
+	EndGlobalSection
+EndGlobal

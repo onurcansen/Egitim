@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{50F684FB-CFB8-48A0-8564-2C9AC4A83E3E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DOB.WinUI</RootNamespace>
+    <AssemblyName>DOB.WinUI</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Framework.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLLs\Framework.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Framework.WinForm">
+      <HintPath>..\DLLs\Framework.WinForm.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormCustomerAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCustomerAdd.Designer.cs">
+      <DependentUpon>FormCustomerAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCustomerList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCustomerList.Designer.cs">
+      <DependentUpon>FormCustomerList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCustomerUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCustomerUpdate.Designer.cs">
+      <DependentUpon>FormCustomerUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEmployeeAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEmployeeAdd.Designer.cs">
+      <DependentUpon>FormEmployeeAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEmployeeList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEmployeeList.Designer.cs">
+      <DependentUpon>FormEmployeeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEmployeeUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEmployeeUpdate.Designer.cs">
+      <DependentUpon>FormEmployeeUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMainCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMainCustomer.Designer.cs">
+      <DependentUpon>FormMainCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMainEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMainEmployee.Designer.cs">
+      <DependentUpon>FormMainEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOrderAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOrderAdd.Designer.cs">
+      <DependentUpon>FormOrderAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOrderList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOrderList.Designer.cs">
+      <DependentUpon>FormOrderList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOrderUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOrderUpdate.Designer.cs">
+      <DependentUpon>FormOrderUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPasswordChange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPasswordChange.Designer.cs">
+      <DependentUpon>FormPasswordChange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProductAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProductAdd.Designer.cs">
+      <DependentUpon>FormProductAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProductList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProductList.Designer.cs">
+      <DependentUpon>FormProductList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProductUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProductUpdate.Designer.cs">
+      <DependentUpon>FormProductUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSessionRoleList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSessionRoleList.Designer.cs">
+      <DependentUpon>FormSessionRoleList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStockList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStockList.Designer.cs">
+      <DependentUpon>FormStockList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStockUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStockUpdate.Designer.cs">
+      <DependentUpon>FormStockUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUser.Designer.cs">
+      <DependentUpon>FormUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStockAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStockAdd.Designer.cs">
+      <DependentUpon>FormStockAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IocUI.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormCustomerAdd.resx">
+      <DependentUpon>FormCustomerAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCustomerList.resx">
+      <DependentUpon>FormCustomerList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCustomerUpdate.resx">
+      <DependentUpon>FormCustomerUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEmployeeAdd.resx">
+      <DependentUpon>FormEmployeeAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEmployeeList.resx">
+      <DependentUpon>FormEmployeeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEmployeeUpdate.resx">
+      <DependentUpon>FormEmployeeUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMainCustomer.resx">
+      <DependentUpon>FormMainCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMainEmployee.resx">
+      <DependentUpon>FormMainEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOrderAdd.resx">
+      <DependentUpon>FormOrderAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOrderList.resx">
+      <DependentUpon>FormOrderList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOrderUpdate.resx">
+      <DependentUpon>FormOrderUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPasswordChange.resx">
+      <DependentUpon>FormPasswordChange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProductAdd.resx">
+      <DependentUpon>FormProductAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProductList.resx">
+      <DependentUpon>FormProductList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProductUpdate.resx">
+      <DependentUpon>FormProductUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSessionRoleList.resx">
+      <DependentUpon>FormSessionRoleList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStockList.resx">
+      <DependentUpon>FormStockList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStockUpdate.resx">
+      <DependentUpon>FormStockUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUser.resx">
+      <DependentUpon>FormUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStockAdd.resx">
+      <DependentUpon>FormStockAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14b37d68-e1a9-43ef-8f08-3fd2293ba29bbbbbbb %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logotrans.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\output-onlinepngtools.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %284%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\30384-4-coffee-cup-hd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sandwich-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sandivic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cookie-icon-vector-23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kek.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\06-FOOD-READY_cheesecake-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\muffin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keek.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salata.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salata.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images CaFeee.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14b37d68-e1a9-43ef-8f08-3fd2293ba29bbbbbbb.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14b37d68-e1a9-43ef-8f08-3fd2293ba29b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hamburger_icon.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coffee_A-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-cup-1540004-1315509.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resto.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snack_time-05-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\71x063T5HUL._SX466_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\30384-4-coffee-cup-hd1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\the-coffee-cup-isolated-on-white-viktor-kashin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\918f15ac8b1522a2a738b8af4834257e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32386sandwich_98891.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_12092605-stock-illustration-sandwich-cartoon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kissclipart-sandwich-clipart-tuna-fish-sandwich-clip-art-ab21ec46e9b3f271.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cookie-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cookie-512 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bc2edd94bdcc8502b39b4cdb3b437d4a-cherry-cake-slice-icon-by-vexels.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\linecolor+version+svg+muffin-1319964497440474483.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cake-309034_640.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entrees.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14-140782_huge-sandwich-png-vector-clipart-picture-cartoon-food.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DOB.BLL\DOB.BLL.csproj">
+      <Project>{8cbcba80-9560-4f30-b0f7-1c981eabaa16}</Project>
+      <Name>DOB.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DOB.DTO\DOB.DTO.csproj">
+      <Project>{9183f871-6109-4f21-a1a5-73058e8e9108}</Project>
+      <Name>DOB.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WHelper\WHelper.csproj">
+      <Project>{50a4abea-2cf3-41d8-826c-b1f29808410d}</Project>
+      <Name>WHelper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-beans-frame-4k-white-background-artwork-creative.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CAFE-LATTE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LATTE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AMERİCANO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BUZLU AMERİCANO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BUZLU CARAMEL MACCIATO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BUZLU LATTE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CAFFE MOCHA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CAPPUCCINO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARAMEL MACCHIATO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ESPRESSO CON PANNA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ESPRESSO MACCIATO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ESPRESSO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FLAT WHİTE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ice-Cafe-Mocha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LATTE1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LATTE2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RİSTRETTO BIANCO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WHITE CHOCOLATE MOCHA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WHİTE CHOCOLATE MOCHA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FILTRE KAHVE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BUZLU FILTRE KAHVE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CAFE MISTO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BUZLU MISTO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\COLD BREW.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SUTLU COLD BREW.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\COFFEE FRAPPUCCINO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ESPRESSO FRAPPUCCINO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARAMEL FRAPPUCCINO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MOCHA FRAPPUCCINO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WHITE CHOCOLATE FRAPPUCCINO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CHOCOLATE FRAPPUCCINO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CLASSIC HOT CHOCOLATE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SIGNATURE HOT CHOCOLATE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\325uncoatedbc.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

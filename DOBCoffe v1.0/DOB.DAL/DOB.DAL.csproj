@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5D264FF5-DFCE-435E-A01B-B06F3E59AE9B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DOB.DAL</RootNamespace>
+    <AssemblyName>DOB.DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Framework.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLLs\Framework.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DOBDbContext.cs" />
+    <Compile Include="IocDal.cs" />
+    <Compile Include="Migrations\201911071639510_CreateDatabase.cs" />
+    <Compile Include="Migrations\201911071639510_CreateDatabase.Designer.cs">
+      <DependentUpon>201911071639510_CreateDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911081506220_NullableStock.cs" />
+    <Compile Include="Migrations\201911081506220_NullableStock.Designer.cs">
+      <DependentUpon>201911081506220_NullableStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911101135374_gunceldb.cs" />
+    <Compile Include="Migrations\201911101135374_gunceldb.Designer.cs">
+      <DependentUpon>201911101135374_gunceldb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201911101423406_update.cs" />
+    <Compile Include="Migrations\201911101423406_update.Designer.cs">
+      <DependentUpon>201911101423406_update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository.cs" />
+    <Compile Include="Singleton.cs" />
+    <Compile Include="UnitofWork.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DOB.DAL.Abstract\DOB.DAL.Abstract.csproj">
+      <Project>{A565C131-AC29-4C93-BE87-6430521956A8}</Project>
+      <Name>DOB.DAL.Abstract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DOB.DTO\DOB.DTO.csproj">
+      <Project>{9183f871-6109-4f21-a1a5-73058e8e9108}</Project>
+      <Name>DOB.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DOB.EntityTypeConfiguration\DOB.EntityTypeConfiguration.csproj">
+      <Project>{e3dd112f-c263-49ac-987d-1437139a3954}</Project>
+      <Name>DOB.EntityTypeConfiguration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DOB.Entity\DOB.Entity.csproj">
+      <Project>{92048528-3b8c-40b5-826e-ab8e4430cf74}</Project>
+      <Name>DOB.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201911071639510_CreateDatabase.resx">
+      <DependentUpon>201911071639510_CreateDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911081506220_NullableStock.resx">
+      <DependentUpon>201911081506220_NullableStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911101135374_gunceldb.resx">
+      <DependentUpon>201911101135374_gunceldb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201911101423406_update.resx">
+      <DependentUpon>201911101423406_update.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
